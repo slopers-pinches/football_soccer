@@ -28,12 +28,12 @@ The On Field Players Ternary Plot project is the opportunity for improving my we
  ![Tottenham Hotspurs' Overall Performance](https://github.com/slopers-pinches/football_soccer/blob/main/Tottenham%20Hotspurs%20Squad%20Overall%20Performance%20%5BFINAL%5D.jpeg)
  
  
- 2) [***AFCON 2022 Top Scorers Plot***](https://github.com/slopers-pinches/football_soccer/tree/main/AFCON%202022%20Top%20Goal%20Scorers%20Plot)
+ 3) [***AFCON 2022 Top Scorers Plot***](https://github.com/slopers-pinches/football_soccer/tree/main/AFCON%202022%20Top%20Goal%20Scorers%20Plot)
  
- The AFCON 2022 (African Cup of Nations 2022) Plot project is the opportunity for improving my web scraping and data visualizations in ggplot2 and ggtextures.
+ The AFCON 2022 (Africa Cup of Nations 2022) Plot project is the opportunity for improving my web scraping and data visualizations in ggplot2 and ggtextures.
   * Use rvest and polite libraries to web scrape [FBREF](https://fbref.com/en/comps/656/Africa-Cup-of-Nations-Stats)
   * Use dpylr and readr to pre-process and clean the data after web scraping
   * Use ggplot, ggflags, ggtextures, and magick to create a plot to illustrate AFCON 2022 Top Scorer Players
 
-**Top Scorers of the African Cup of Nation 2022**
-![Top Scoers of the African Cup of Nation 2022](https://github.com/slopers-pinches/football_soccer/blob/main/AFCON%202022%20Top%20Goal%20Scorers%20%5BFINAL%5D.png)
+**Top Scorers of the Africa Cup of Nation 2022**
+![Top Scorers of the Africa Cup of Nation 2022](https://github.com/slopers-pinches/football_soccer/blob/main/AFCON%202022%20Top%20Goal%20Scorers%20Plot/AFCON%202022%20Top%20Goal%20Scorers%20%5BFINAL%5D.png)
