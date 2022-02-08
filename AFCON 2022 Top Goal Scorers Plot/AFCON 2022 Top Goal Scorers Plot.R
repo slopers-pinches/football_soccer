@@ -1,4 +1,4 @@
-### Plot of Top Goal Scorers of from African Cup of Nations 2022
+### Plot of Top Goal Scorers of from Africa Cup of Nations 2022
 
 ## 1) Load Libraries ----
 
@@ -43,7 +43,7 @@ afcon_22_top_scorers_tbl %>%
                        limits = c(0,10)) +
   # Customize theme
   ggthemes::theme_fivethirtyeight() +
-  labs(title = 'Top Scorers of the African Cup of Nation 2022',
+  labs(title = 'Top Scorers of the Africa Cup of Nations 2022',
        subtitle = 'Top Scorer: Vincent Aboubakar with 8 Goals',
        y = 'Number of Goals', x = NULL,
        caption = 'Data Source: FBREF') +
