@@ -1,0 +1,641 @@
+Club,Home_Away,Score_Concede,Time,Count
+Arsenal,Home,Scored,0-15,6
+Aston Villa,Home,Scored,0-15,3
+Brentford,Home,Scored,0-15,2
+Brighton,Home,Scored,0-15,3
+Burnley,Home,Scored,0-15,4
+Chelsea,Home,Scored,0-15,4
+Crystal Palace,Home,Scored,0-15,3
+Everton,Home,Scored,0-15,3
+Leeds Utd,Home,Scored,0-15,1
+Leicester City,Home,Scored,0-15,1
+Liverpool,Home,Scored,0-15,4
+Manchester City,Home,Scored,0-15,11
+Manchester Utd,Home,Scored,0-15,4
+Newcastle Utd,Home,Scored,0-15,6
+Norwich City,Home,Scored,0-15,3
+Southampton,Home,Scored,0-15,6
+Tottenham,Home,Scored,0-15,5
+Watford,Home,Scored,0-15,5
+West Ham Utd,Home,Scored,0-15,2
+Wolverhampton,Home,Scored,0-15,4
+Arsenal,Home,Conceded,0-15,2
+Aston Villa,Home,Conceded,0-15,7
+Brentford,Home,Conceded,0-15,2
+Brighton,Home,Conceded,0-15,1
+Burnley,Home,Conceded,0-15,3
+Chelsea,Home,Conceded,0-15,3
+Crystal Palace,Home,Conceded,0-15,2
+Everton,Home,Conceded,0-15,4
+Leeds Utd,Home,Conceded,0-15,5
+Leicester City,Home,Conceded,0-15,5
+Liverpool,Home,Conceded,0-15,2
+Manchester City,Home,Conceded,0-15,3
+Manchester Utd,Home,Conceded,0-15,4
+Newcastle Utd,Home,Conceded,0-15,3
+Norwich City,Home,Conceded,0-15,6
+Southampton,Home,Conceded,0-15,3
+Tottenham,Home,Conceded,0-15,1
+Watford,Home,Conceded,0-15,5
+West Ham Utd,Home,Conceded,0-15,2
+Wolverhampton,Home,Conceded,0-15,2
+Arsenal,Home,Scored,16-30,5
+Aston Villa,Home,Scored,16-30,3
+Brentford,Home,Scored,16-30,3
+Brighton,Home,Scored,16-30,1
+Burnley,Home,Scored,16-30,2
+Chelsea,Home,Scored,16-30,4
+Crystal Palace,Home,Scored,16-30,2
+Everton,Home,Scored,16-30,3
+Leeds Utd,Home,Scored,16-30,5
+Leicester City,Home,Scored,16-30,3
+Liverpool,Home,Scored,16-30,9
+Manchester City,Home,Scored,16-30,6
+Manchester Utd,Home,Scored,16-30,3
+Newcastle Utd,Home,Scored,16-30,1
+Norwich City,Home,Scored,16-30,2
+Southampton,Home,Scored,16-30,4
+Tottenham,Home,Scored,16-30,6
+Watford,Home,Scored,16-30,2
+West Ham Utd,Home,Scored,16-30,3
+Wolverhampton,Home,Scored,16-30,5
+Arsenal,Home,Conceded,16-30,1
+Aston Villa,Home,Conceded,16-30,2
+Brentford,Home,Conceded,16-30,4
+Brighton,Home,Conceded,16-30,5
+Burnley,Home,Conceded,16-30,5
+Chelsea,Home,Conceded,16-30,3
+Crystal Palace,Home,Conceded,16-30,2
+Everton,Home,Conceded,16-30,4
+Leeds Utd,Home,Conceded,16-30,8
+Leicester City,Home,Conceded,16-30,5
+Liverpool,Home,Conceded,16-30,1
+Manchester City,Home,Conceded,16-30,2
+Manchester Utd,Home,Conceded,16-30,0
+Newcastle Utd,Home,Conceded,16-30,6
+Norwich City,Home,Conceded,16-30,4
+Southampton,Home,Conceded,16-30,5
+Tottenham,Home,Conceded,16-30,2
+Watford,Home,Conceded,16-30,9
+West Ham Utd,Home,Conceded,16-30,2
+Wolverhampton,Home,Conceded,16-30,5
+Arsenal,Home,Scored,31-45,5
+Aston Villa,Home,Scored,31-45,6
+Brentford,Home,Scored,31-45,1
+Brighton,Home,Scored,31-45,5
+Burnley,Home,Scored,31-45,3
+Chelsea,Home,Scored,31-45,8
+Crystal Palace,Home,Scored,31-45,6
+Everton,Home,Scored,31-45,2
+Leeds Utd,Home,Scored,31-45,2
+Leicester City,Home,Scored,31-45,10
+Liverpool,Home,Scored,31-45,8
+Manchester City,Home,Scored,31-45,9
+Manchester Utd,Home,Scored,31-45,6
+Newcastle Utd,Home,Scored,31-45,7
+Norwich City,Home,Scored,31-45,2
+Southampton,Home,Scored,31-45,6
+Tottenham,Home,Scored,31-45,7
+Watford,Home,Scored,31-45,3
+West Ham Utd,Home,Scored,31-45,8
+Wolverhampton,Home,Scored,31-45,4
+Arsenal,Home,Conceded,31-45,3
+Aston Villa,Home,Conceded,31-45,5
+Brentford,Home,Conceded,31-45,4
+Brighton,Home,Conceded,31-45,7
+Burnley,Home,Conceded,31-45,5
+Chelsea,Home,Conceded,31-45,0
+Crystal Palace,Home,Conceded,31-45,6
+Everton,Home,Conceded,31-45,4
+Leeds Utd,Home,Conceded,31-45,3
+Leicester City,Home,Conceded,31-45,2
+Liverpool,Home,Conceded,31-45,1
+Manchester City,Home,Conceded,31-45,1
+Manchester Utd,Home,Conceded,31-45,6
+Newcastle Utd,Home,Conceded,31-45,3
+Norwich City,Home,Conceded,31-45,8
+Southampton,Home,Conceded,31-45,4
+Tottenham,Home,Conceded,31-45,5
+Watford,Home,Conceded,31-45,4
+West Ham Utd,Home,Conceded,31-45,7
+Wolverhampton,Home,Conceded,31-45,6
+Arsenal,Home,Scored,46-60,8
+Aston Villa,Home,Scored,46-60,6
+Brentford,Home,Scored,46-60,3
+Brighton,Home,Scored,46-60,6
+Burnley,Home,Scored,46-60,3
+Chelsea,Home,Scored,46-60,9
+Crystal Palace,Home,Scored,46-60,2
+Everton,Home,Scored,46-60,5
+Leeds Utd,Home,Scored,46-60,2
+Leicester City,Home,Scored,46-60,6
+Liverpool,Home,Scored,46-60,3
+Manchester City,Home,Scored,46-60,6
+Manchester Utd,Home,Scored,46-60,5
+Newcastle Utd,Home,Scored,46-60,4
+Norwich City,Home,Scored,46-60,1
+Southampton,Home,Scored,46-60,4
+Tottenham,Home,Scored,46-60,8
+Watford,Home,Scored,46-60,1
+West Ham Utd,Home,Scored,46-60,6
+Wolverhampton,Home,Scored,46-60,4
+Arsenal,Home,Conceded,46-60,3
+Aston Villa,Home,Conceded,46-60,2
+Brentford,Home,Conceded,46-60,4
+Brighton,Home,Conceded,46-60,3
+Burnley,Home,Conceded,46-60,5
+Chelsea,Home,Conceded,46-60,6
+Crystal Palace,Home,Conceded,46-60,1
+Everton,Home,Conceded,46-60,2
+Leeds Utd,Home,Conceded,46-60,7
+Leicester City,Home,Conceded,46-60,0
+Liverpool,Home,Conceded,46-60,2
+Manchester City,Home,Conceded,46-60,4
+Manchester Utd,Home,Conceded,46-60,7
+Newcastle Utd,Home,Conceded,46-60,2
+Norwich City,Home,Conceded,46-60,8
+Southampton,Home,Conceded,46-60,7
+Tottenham,Home,Conceded,46-60,2
+Watford,Home,Conceded,46-60,7
+West Ham Utd,Home,Conceded,46-60,5
+Wolverhampton,Home,Conceded,46-60,1
+Arsenal,Home,Scored,61-75,4
+Aston Villa,Home,Scored,61-75,6
+Brentford,Home,Scored,61-75,4
+Brighton,Home,Scored,61-75,0
+Burnley,Home,Scored,61-75,4
+Chelsea,Home,Scored,61-75,3
+Crystal Palace,Home,Scored,61-75,7
+Everton,Home,Scored,61-75,4
+Leeds Utd,Home,Scored,61-75,2
+Leicester City,Home,Scored,61-75,5
+Liverpool,Home,Scored,61-75,9
+Manchester City,Home,Scored,61-75,12
+Manchester Utd,Home,Scored,61-75,7
+Newcastle Utd,Home,Scored,61-75,3
+Norwich City,Home,Scored,61-75,1
+Southampton,Home,Scored,61-75,1
+Tottenham,Home,Scored,61-75,8
+Watford,Home,Scored,61-75,3
+West Ham Utd,Home,Scored,61-75,8
+Wolverhampton,Home,Scored,61-75,1
+Arsenal,Home,Conceded,61-75,4
+Aston Villa,Home,Conceded,61-75,5
+Brentford,Home,Conceded,61-75,3
+Brighton,Home,Conceded,61-75,6
+Burnley,Home,Conceded,61-75,2
+Chelsea,Home,Conceded,61-75,2
+Crystal Palace,Home,Conceded,61-75,2
+Everton,Home,Conceded,61-75,5
+Leeds Utd,Home,Conceded,61-75,6
+Leicester City,Home,Conceded,61-75,4
+Liverpool,Home,Conceded,61-75,2
+Manchester City,Home,Conceded,61-75,2
+Manchester Utd,Home,Conceded,61-75,3
+Newcastle Utd,Home,Conceded,61-75,7
+Norwich City,Home,Conceded,61-75,10
+Southampton,Home,Conceded,61-75,3
+Tottenham,Home,Conceded,61-75,3
+Watford,Home,Conceded,61-75,7
+West Ham Utd,Home,Conceded,61-75,5
+Wolverhampton,Home,Conceded,61-75,4
+Arsenal,Home,Scored,76-90,7
+Aston Villa,Home,Scored,76-90,5
+Brentford,Home,Scored,76-90,9
+Brighton,Home,Scored,76-90,4
+Burnley,Home,Scored,76-90,2
+Chelsea,Home,Scored,76-90,9
+Crystal Palace,Home,Scored,76-90,7
+Everton,Home,Scored,76-90,10
+Leeds Utd,Home,Scored,76-90,7
+Leicester City,Home,Scored,76-90,9
+Liverpool,Home,Scored,76-90,16
+Manchester City,Home,Scored,76-90,14
+Manchester Utd,Home,Scored,76-90,7
+Newcastle Utd,Home,Scored,76-90,5
+Norwich City,Home,Scored,76-90,3
+Southampton,Home,Scored,76-90,2
+Tottenham,Home,Scored,76-90,4
+Watford,Home,Scored,76-90,3
+West Ham Utd,Home,Scored,76-90,6
+Wolverhampton,Home,Scored,76-90,2
+Arsenal,Home,Conceded,76-90,4
+Aston Villa,Home,Conceded,76-90,8
+Brentford,Home,Conceded,76-90,4
+Brighton,Home,Conceded,76-90,1
+Burnley,Home,Conceded,76-90,5
+Chelsea,Home,Conceded,76-90,8
+Crystal Palace,Home,Conceded,76-90,4
+Everton,Home,Conceded,76-90,6
+Leeds Utd,Home,Conceded,76-90,9
+Leicester City,Home,Conceded,76-90,7
+Liverpool,Home,Conceded,76-90,1
+Manchester City,Home,Conceded,76-90,3
+Manchester Utd,Home,Conceded,76-90,2
+Newcastle Utd,Home,Conceded,76-90,6
+Norwich City,Home,Conceded,76-90,7
+Southampton,Home,Conceded,76-90,2
+Tottenham,Home,Conceded,76-90,6
+Watford,Home,Conceded,76-90,14
+West Ham Utd,Home,Conceded,76-90,5
+Wolverhampton,Home,Conceded,76-90,7
+Arsenal,Home,Scored,1st_Half,16
+Aston Villa,Home,Scored,1st_Half,12
+Brentford,Home,Scored,1st_Half,6
+Brighton,Home,Scored,1st_Half,9
+Burnley,Home,Scored,1st_Half,9
+Chelsea,Home,Scored,1st_Half,16
+Crystal Palace,Home,Scored,1st_Half,11
+Everton,Home,Scored,1st_Half,8
+Leeds Utd,Home,Scored,1st_Half,8
+Leicester City,Home,Scored,1st_Half,14
+Liverpool,Home,Scored,1st_Half,21
+Manchester City,Home,Scored,1st_Half,26
+Manchester Utd,Home,Scored,1st_Half,13
+Newcastle Utd,Home,Scored,1st_Half,14
+Norwich City,Home,Scored,1st_Half,7
+Southampton,Home,Scored,1st_Half,16
+Tottenham,Home,Scored,1st_Half,18
+Watford,Home,Scored,1st_Half,10
+West Ham Utd,Home,Scored,1st_Half,13
+Wolverhampton,Home,Scored,1st_Half,13
+Arsenal,Home,Conceded,1st_Half,6
+Aston Villa,Home,Conceded,1st_Half,14
+Brentford,Home,Conceded,1st_Half,10
+Brighton,Home,Conceded,1st_Half,13
+Burnley,Home,Conceded,1st_Half,13
+Chelsea,Home,Conceded,1st_Half,6
+Crystal Palace,Home,Conceded,1st_Half,10
+Everton,Home,Conceded,1st_Half,12
+Leeds Utd,Home,Conceded,1st_Half,16
+Leicester City,Home,Conceded,1st_Half,12
+Liverpool,Home,Conceded,1st_Half,4
+Manchester City,Home,Conceded,1st_Half,6
+Manchester Utd,Home,Conceded,1st_Half,10
+Newcastle Utd,Home,Conceded,1st_Half,12
+Norwich City,Home,Conceded,1st_Half,18
+Southampton,Home,Conceded,1st_Half,12
+Tottenham,Home,Conceded,1st_Half,8
+Watford,Home,Conceded,1st_Half,18
+West Ham Utd,Home,Conceded,1st_Half,11
+Wolverhampton,Home,Conceded,1st_Half,13
+Arsenal,Home,Scored,2nd_Half,19
+Aston Villa,Home,Scored,2nd_Half,17
+Brentford,Home,Scored,2nd_Half,16
+Brighton,Home,Scored,2nd_Half,10
+Burnley,Home,Scored,2nd_Half,9
+Chelsea,Home,Scored,2nd_Half,21
+Crystal Palace,Home,Scored,2nd_Half,16
+Everton,Home,Scored,2nd_Half,19
+Leeds Utd,Home,Scored,2nd_Half,11
+Leicester City,Home,Scored,2nd_Half,20
+Liverpool,Home,Scored,2nd_Half,28
+Manchester City,Home,Scored,2nd_Half,32
+Manchester Utd,Home,Scored,2nd_Half,19
+Newcastle Utd,Home,Scored,2nd_Half,12
+Norwich City,Home,Scored,2nd_Half,5
+Southampton,Home,Scored,2nd_Half,7
+Tottenham,Home,Scored,2nd_Half,20
+Watford,Home,Scored,2nd_Half,7
+West Ham Utd,Home,Scored,2nd_Half,20
+Wolverhampton,Home,Scored,2nd_Half,7
+Arsenal,Home,Conceded,2nd_Half,11
+Aston Villa,Home,Conceded,2nd_Half,15
+Brentford,Home,Conceded,2nd_Half,11
+Brighton,Home,Conceded,2nd_Half,10
+Burnley,Home,Conceded,2nd_Half,12
+Chelsea,Home,Conceded,2nd_Half,16
+Crystal Palace,Home,Conceded,2nd_Half,7
+Everton,Home,Conceded,2nd_Half,13
+Leeds Utd,Home,Conceded,2nd_Half,22
+Leicester City,Home,Conceded,2nd_Half,11
+Liverpool,Home,Conceded,2nd_Half,5
+Manchester City,Home,Conceded,2nd_Half,9
+Manchester Utd,Home,Conceded,2nd_Half,12
+Newcastle Utd,Home,Conceded,2nd_Half,15
+Norwich City,Home,Conceded,2nd_Half,25
+Southampton,Home,Conceded,2nd_Half,12
+Tottenham,Home,Conceded,2nd_Half,11
+Watford,Home,Conceded,2nd_Half,28
+West Ham Utd,Home,Conceded,2nd_Half,15
+Wolverhampton,Home,Conceded,2nd_Half,12
+Arsenal,Away,Scored,0-15,5
+Aston Villa,Away,Scored,0-15,2
+Brentford,Away,Scored,0-15,3
+Brighton,Away,Scored,0-15,1
+Burnley,Away,Scored,0-15,2
+Chelsea,Away,Scored,0-15,6
+Crystal Palace,Away,Scored,0-15,3
+Everton,Away,Scored,0-15,1
+Leeds Utd,Away,Scored,0-15,3
+Leicester City,Away,Scored,0-15,5
+Liverpool,Away,Scored,0-15,8
+Manchester City,Away,Scored,0-15,7
+Manchester Utd,Away,Scored,0-15,1
+Newcastle Utd,Away,Scored,0-15,1
+Norwich City,Away,Scored,0-15,1
+Southampton,Away,Scored,0-15,2
+Tottenham,Away,Scored,0-15,5
+Watford,Away,Scored,0-15,2
+West Ham Utd,Away,Scored,0-15,3
+Wolverhampton,Away,Scored,0-15,4
+Arsenal,Away,Conceded,0-15,3
+Aston Villa,Away,Conceded,0-15,4
+Brentford,Away,Conceded,0-15,7
+Brighton,Away,Conceded,0-15,5
+Burnley,Away,Conceded,0-15,5
+Chelsea,Away,Conceded,0-15,0
+Crystal Palace,Away,Conceded,0-15,3
+Everton,Away,Conceded,0-15,3
+Leeds Utd,Away,Conceded,0-15,6
+Leicester City,Away,Conceded,0-15,6
+Liverpool,Away,Conceded,0-15,5
+Manchester City,Away,Conceded,0-15,2
+Manchester Utd,Away,Conceded,0-15,5
+Newcastle Utd,Away,Conceded,0-15,0
+Norwich City,Away,Conceded,0-15,6
+Southampton,Away,Conceded,0-15,9
+Tottenham,Away,Conceded,0-15,3
+Watford,Away,Conceded,0-15,5
+West Ham Utd,Away,Conceded,0-15,3
+Wolverhampton,Away,Conceded,0-15,0
+Arsenal,Away,Scored,16-30,8
+Aston Villa,Away,Scored,16-30,3
+Brentford,Away,Scored,16-30,3
+Brighton,Away,Scored,16-30,3
+Burnley,Away,Scored,16-30,1
+Chelsea,Away,Scored,16-30,7
+Crystal Palace,Away,Scored,16-30,2
+Everton,Away,Scored,16-30,3
+Leeds Utd,Away,Scored,16-30,2
+Leicester City,Away,Scored,16-30,5
+Liverpool,Away,Scored,16-30,7
+Manchester City,Away,Scored,16-30,7
+Manchester Utd,Away,Scored,16-30,3
+Newcastle Utd,Away,Scored,16-30,2
+Norwich City,Away,Scored,16-30,1
+Southampton,Away,Scored,16-30,3
+Tottenham,Away,Scored,16-30,4
+Watford,Away,Scored,16-30,4
+West Ham Utd,Away,Scored,16-30,6
+Wolverhampton,Away,Scored,16-30,1
+Arsenal,Away,Conceded,16-30,5
+Aston Villa,Away,Conceded,16-30,2
+Brentford,Away,Conceded,16-30,2
+Brighton,Away,Conceded,16-30,3
+Burnley,Away,Conceded,16-30,2
+Chelsea,Away,Conceded,16-30,1
+Crystal Palace,Away,Conceded,16-30,4
+Everton,Away,Conceded,16-30,6
+Leeds Utd,Away,Conceded,16-30,5
+Leicester City,Away,Conceded,16-30,7
+Liverpool,Away,Conceded,16-30,1
+Manchester City,Away,Conceded,16-30,1
+Manchester Utd,Away,Conceded,16-30,6
+Newcastle Utd,Away,Conceded,16-30,6
+Norwich City,Away,Conceded,16-30,3
+Southampton,Away,Conceded,16-30,5
+Tottenham,Away,Conceded,16-30,3
+Watford,Away,Conceded,16-30,6
+West Ham Utd,Away,Conceded,16-30,3
+Wolverhampton,Away,Conceded,16-30,1
+Arsenal,Away,Scored,31-45,4
+Aston Villa,Away,Scored,31-45,4
+Brentford,Away,Scored,31-45,4
+Brighton,Away,Scored,31-45,3
+Burnley,Away,Scored,31-45,5
+Chelsea,Away,Scored,31-45,5
+Crystal Palace,Away,Scored,31-45,5
+Everton,Away,Scored,31-45,4
+Leeds Utd,Away,Scored,31-45,3
+Leicester City,Away,Scored,31-45,3
+Liverpool,Away,Scored,31-45,8
+Manchester City,Away,Scored,31-45,5
+Manchester Utd,Away,Scored,31-45,5
+Newcastle Utd,Away,Scored,31-45,8
+Norwich City,Away,Scored,31-45,2
+Southampton,Away,Scored,31-45,3
+Tottenham,Away,Scored,31-45,6
+Watford,Away,Scored,31-45,1
+West Ham Utd,Away,Scored,31-45,5
+Wolverhampton,Away,Scored,31-45,1
+Arsenal,Away,Conceded,31-45,7
+Aston Villa,Away,Conceded,31-45,5
+Brentford,Away,Conceded,31-45,10
+Brighton,Away,Conceded,31-45,1
+Burnley,Away,Conceded,31-45,7
+Chelsea,Away,Conceded,31-45,3
+Crystal Palace,Away,Conceded,31-45,8
+Everton,Away,Conceded,31-45,9
+Leeds Utd,Away,Conceded,31-45,8
+Leicester City,Away,Conceded,31-45,5
+Liverpool,Away,Conceded,31-45,4
+Manchester City,Away,Conceded,31-45,2
+Manchester Utd,Away,Conceded,31-45,4
+Newcastle Utd,Away,Conceded,31-45,6
+Norwich City,Away,Conceded,31-45,7
+Southampton,Away,Conceded,31-45,6
+Tottenham,Away,Conceded,31-45,3
+Watford,Away,Conceded,31-45,8
+West Ham Utd,Away,Conceded,31-45,4
+Wolverhampton,Away,Conceded,31-45,1
+Arsenal,Away,Scored,46-60,4
+Aston Villa,Away,Scored,46-60,1
+Brentford,Away,Scored,46-60,6
+Brighton,Away,Scored,46-60,1
+Burnley,Away,Scored,46-60,4
+Chelsea,Away,Scored,46-60,10
+Crystal Palace,Away,Scored,46-60,4
+Everton,Away,Scored,46-60,4
+Leeds Utd,Away,Scored,46-60,5
+Leicester City,Away,Scored,46-60,4
+Liverpool,Away,Scored,46-60,7
+Manchester City,Away,Scored,46-60,6
+Manchester Utd,Away,Scored,46-60,4
+Newcastle Utd,Away,Scored,46-60,4
+Norwich City,Away,Scored,46-60,3
+Southampton,Away,Scored,46-60,3
+Tottenham,Away,Scored,46-60,4
+Watford,Away,Scored,46-60,0
+West Ham Utd,Away,Scored,46-60,2
+Wolverhampton,Away,Scored,46-60,2
+Arsenal,Away,Conceded,46-60,5
+Aston Villa,Away,Conceded,46-60,2
+Brentford,Away,Conceded,46-60,4
+Brighton,Away,Conceded,46-60,4
+Burnley,Away,Conceded,46-60,3
+Chelsea,Away,Conceded,46-60,3
+Crystal Palace,Away,Conceded,46-60,3
+Everton,Away,Conceded,46-60,9
+Leeds Utd,Away,Conceded,46-60,9
+Leicester City,Away,Conceded,46-60,6
+Liverpool,Away,Conceded,46-60,2
+Manchester City,Away,Conceded,46-60,3
+Manchester Utd,Away,Conceded,46-60,6
+Newcastle Utd,Away,Conceded,46-60,6
+Norwich City,Away,Conceded,46-60,4
+Southampton,Away,Conceded,46-60,8
+Tottenham,Away,Conceded,46-60,2
+Watford,Away,Conceded,46-60,4
+West Ham Utd,Away,Conceded,46-60,5
+Wolverhampton,Away,Conceded,46-60,4
+Arsenal,Away,Scored,61-75,1
+Aston Villa,Away,Scored,61-75,6
+Brentford,Away,Scored,61-75,4
+Brighton,Away,Scored,61-75,5
+Burnley,Away,Scored,61-75,1
+Chelsea,Away,Scored,61-75,4
+Crystal Palace,Away,Scored,61-75,4
+Everton,Away,Scored,61-75,4
+Leeds Utd,Away,Scored,61-75,5
+Leicester City,Away,Scored,61-75,6
+Liverpool,Away,Scored,61-75,9
+Manchester City,Away,Scored,61-75,7
+Manchester Utd,Away,Scored,61-75,6
+Newcastle Utd,Away,Scored,61-75,3
+Norwich City,Away,Scored,61-75,1
+Southampton,Away,Scored,61-75,4
+Tottenham,Away,Scored,61-75,6
+Watford,Away,Scored,61-75,2
+West Ham Utd,Away,Scored,61-75,5
+Wolverhampton,Away,Scored,61-75,2
+Arsenal,Away,Conceded,61-75,5
+Aston Villa,Away,Conceded,61-75,4
+Brentford,Away,Conceded,61-75,7
+Brighton,Away,Conceded,61-75,1
+Burnley,Away,Conceded,61-75,5
+Chelsea,Away,Conceded,61-75,3
+Crystal Palace,Away,Conceded,61-75,4
+Everton,Away,Conceded,61-75,7
+Leeds Utd,Away,Conceded,61-75,6
+Leicester City,Away,Conceded,61-75,5
+Liverpool,Away,Conceded,61-75,4
+Manchester City,Away,Conceded,61-75,1
+Manchester Utd,Away,Conceded,61-75,4
+Newcastle Utd,Away,Conceded,61-75,7
+Norwich City,Away,Conceded,61-75,10
+Southampton,Away,Conceded,61-75,5
+Tottenham,Away,Conceded,61-75,4
+Watford,Away,Conceded,61-75,3
+West Ham Utd,Away,Conceded,61-75,1
+Wolverhampton,Away,Conceded,61-75,6
+Arsenal,Away,Scored,76-90,4
+Aston Villa,Away,Scored,76-90,7
+Brentford,Away,Scored,76-90,6
+Brighton,Away,Scored,76-90,10
+Burnley,Away,Scored,76-90,3
+Chelsea,Away,Scored,76-90,7
+Crystal Palace,Away,Scored,76-90,5
+Everton,Away,Scored,76-90,0
+Leeds Utd,Away,Scored,76-90,5
+Leicester City,Away,Scored,76-90,5
+Liverpool,Away,Scored,76-90,6
+Manchester City,Away,Scored,76-90,9
+Manchester Utd,Away,Scored,76-90,6
+Newcastle Utd,Away,Scored,76-90,0
+Norwich City,Away,Scored,76-90,3
+Southampton,Away,Scored,76-90,5
+Tottenham,Away,Scored,76-90,6
+Watford,Away,Scored,76-90,8
+West Ham Utd,Away,Scored,76-90,6
+Wolverhampton,Away,Scored,76-90,8
+Arsenal,Away,Conceded,76-90,6
+Aston Villa,Away,Conceded,76-90,8
+Brentford,Away,Conceded,76-90,5
+Brighton,Away,Conceded,76-90,7
+Burnley,Away,Conceded,76-90,6
+Chelsea,Away,Conceded,76-90,1
+Crystal Palace,Away,Conceded,76-90,7
+Everton,Away,Conceded,76-90,7
+Leeds Utd,Away,Conceded,76-90,7
+Leicester City,Away,Conceded,76-90,7
+Liverpool,Away,Conceded,76-90,1
+Manchester City,Away,Conceded,76-90,2
+Manchester Utd,Away,Conceded,76-90,10
+Newcastle Utd,Away,Conceded,76-90,10
+Norwich City,Away,Conceded,76-90,11
+Southampton,Away,Conceded,76-90,10
+Tottenham,Away,Conceded,76-90,6
+Watford,Away,Conceded,76-90,5
+West Ham Utd,Away,Conceded,76-90,9
+Wolverhampton,Away,Conceded,76-90,6
+Arsenal,Away,Scored,1st_Half,17
+Aston Villa,Away,Scored,1st_Half,9
+Brentford,Away,Scored,1st_Half,10
+Brighton,Away,Scored,1st_Half,7
+Burnley,Away,Scored,1st_Half,8
+Chelsea,Away,Scored,1st_Half,18
+Crystal Palace,Away,Scored,1st_Half,10
+Everton,Away,Scored,1st_Half,8
+Leeds Utd,Away,Scored,1st_Half,8
+Leicester City,Away,Scored,1st_Half,13
+Liverpool,Away,Scored,1st_Half,23
+Manchester City,Away,Scored,1st_Half,19
+Manchester Utd,Away,Scored,1st_Half,9
+Newcastle Utd,Away,Scored,1st_Half,11
+Norwich City,Away,Scored,1st_Half,4
+Southampton,Away,Scored,1st_Half,8
+Tottenham,Away,Scored,1st_Half,15
+Watford,Away,Scored,1st_Half,7
+West Ham Utd,Away,Scored,1st_Half,14
+Wolverhampton,Away,Scored,1st_Half,6
+Arsenal,Away,Conceded,1st_Half,15
+Aston Villa,Away,Conceded,1st_Half,11
+Brentford,Away,Conceded,1st_Half,19
+Brighton,Away,Conceded,1st_Half,9
+Burnley,Away,Conceded,1st_Half,14
+Chelsea,Away,Conceded,1st_Half,4
+Crystal Palace,Away,Conceded,1st_Half,15
+Everton,Away,Conceded,1st_Half,18
+Leeds Utd,Away,Conceded,1st_Half,19
+Leicester City,Away,Conceded,1st_Half,18
+Liverpool,Away,Conceded,1st_Half,10
+Manchester City,Away,Conceded,1st_Half,5
+Manchester Utd,Away,Conceded,1st_Half,15
+Newcastle Utd,Away,Conceded,1st_Half,12
+Norwich City,Away,Conceded,1st_Half,16
+Southampton,Away,Conceded,1st_Half,20
+Tottenham,Away,Conceded,1st_Half,9
+Watford,Away,Conceded,1st_Half,19
+West Ham Utd,Away,Conceded,1st_Half,10
+Wolverhampton,Away,Conceded,1st_Half,2
+Arsenal,Away,Scored,2nd_Half,9
+Aston Villa,Away,Scored,2nd_Half,14
+Brentford,Away,Scored,2nd_Half,16
+Brighton,Away,Scored,2nd_Half,16
+Burnley,Away,Scored,2nd_Half,8
+Chelsea,Away,Scored,2nd_Half,21
+Crystal Palace,Away,Scored,2nd_Half,13
+Everton,Away,Scored,2nd_Half,8
+Leeds Utd,Away,Scored,2nd_Half,15
+Leicester City,Away,Scored,2nd_Half,15
+Liverpool,Away,Scored,2nd_Half,22
+Manchester City,Away,Scored,2nd_Half,22
+Manchester Utd,Away,Scored,2nd_Half,16
+Newcastle Utd,Away,Scored,2nd_Half,7
+Norwich City,Away,Scored,2nd_Half,7
+Southampton,Away,Scored,2nd_Half,12
+Tottenham,Away,Scored,2nd_Half,16
+Watford,Away,Scored,2nd_Half,10
+West Ham Utd,Away,Scored,2nd_Half,13
+Wolverhampton,Away,Scored,2nd_Half,12
+Arsenal,Away,Conceded,2nd_Half,16
+Aston Villa,Away,Conceded,2nd_Half,14
+Brentford,Away,Conceded,2nd_Half,16
+Brighton,Away,Conceded,2nd_Half,12
+Burnley,Away,Conceded,2nd_Half,14
+Chelsea,Away,Conceded,2nd_Half,7
+Crystal Palace,Away,Conceded,2nd_Half,14
+Everton,Away,Conceded,2nd_Half,23
+Leeds Utd,Away,Conceded,2nd_Half,22
+Leicester City,Away,Conceded,2nd_Half,18
+Liverpool,Away,Conceded,2nd_Half,7
+Manchester City,Away,Conceded,2nd_Half,6
+Manchester Utd,Away,Conceded,2nd_Half,20
+Newcastle Utd,Away,Conceded,2nd_Half,23
+Norwich City,Away,Conceded,2nd_Half,25
+Southampton,Away,Conceded,2nd_Half,23
+Tottenham,Away,Conceded,2nd_Half,12
+Watford,Away,Conceded,2nd_Half,12
+West Ham Utd,Away,Conceded,2nd_Half,15
+Wolverhampton,Away,Conceded,2nd_Half,16
