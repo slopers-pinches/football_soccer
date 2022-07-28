@@ -40,8 +40,8 @@ The AFCON 2022 (Africa Cup of Nations 2022) Top Scorers Plot project is the oppo
 
 4) [***English Premier League Goals Scored & Conceded Charts***](https://github.com/slopers-pinches/football_soccer/tree/main/Goals%20Scored%20Conceded%20Charts)
 
-This project gives me the opportunity to create small multiple bar charts showing Goals Scored and Conceded by English Premier League Clubs from 2021-22 season. The data was web scraped using Selenium in PYthon and visualized in Tableau
-  * Use Selenium to web srape [SoccerSTATS](https://www.soccerstats.com/timing.asp?league=england)
+This project gives me the opportunity to create small multiple bar charts showing Goals Scored and Conceded by English Premier League Clubs from 2021-22 season. The data was web scraped using Selenium in Python and visualized in Tableau.
+  * Use Selenium to web scrape [SoccerSTATS](https://www.soccerstats.com/timing.asp?league=england)
   * Use panadas for data preprocessing and manipulation
   * Use Tableau to create the small multiple bar charts
     - Refer to [Tableau Tip Tuesday: How to Create Small Multiple Line Charts](https://www.vizwiz.com/2016/03/tableau-tip-tuesday-how-to-create-small.html)
