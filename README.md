@@ -28,12 +28,27 @@ The On Field Players Ternary Plot project is the opportunity for improving my we
  ![Tottenham Hotspurs' Overall Performance](https://github.com/slopers-pinches/football_soccer/blob/main/Tottenham%20Hotspurs%20Squad%20Overall%20Performance%20%5BFINAL%5D.jpeg)
  
  
- 3) [***AFCON 2022 Top Scorers Plot***](https://github.com/slopers-pinches/football_soccer/tree/main/AFCON%202022%20Top%20Goal%20Scorers%20Plot)
+3) [***AFCON 2022 Top Scorers Plot***](https://github.com/slopers-pinches/football_soccer/tree/main/AFCON%202022%20Top%20Goal%20Scorers%20Plot)
  
- The AFCON 2022 (Africa Cup of Nations 2022) Top Scorers Plot project is the opportunity for improving my web scraping and data visualizations in ggplot2 and ggtextures.
+The AFCON 2022 (Africa Cup of Nations 2022) Top Scorers Plot project is the opportunity for improving my web scraping and data visualizations in ggplot2 and ggtextures.
   * Use rvest and polite libraries to web scrape [FBREF](https://fbref.com/en/comps/656/Africa-Cup-of-Nations-Stats)
   * Use dpylr and readr to pre-process and clean the data after web scraping
   * Use ggplot, ggflags, ggtextures, and magick to create a plot to illustrate AFCON 2022 Top Scorer Players
 
 **Top Scorers of the Africa Cup of Nation 2022**
 ![Top Scorers of the Africa Cup of Nation 2022](https://github.com/slopers-pinches/football_soccer/blob/main/AFCON%202022%20Top%20Goal%20Scorers%20Plot/AFCON%202022%20Top%20Goal%20Scorers%20%5BFINAL%5D.png)
+
+4) [***English Premier League Goals Scored & Conceded Charts***](https://github.com/slopers-pinches/football_soccer/tree/main/Goals%20Scored%20Conceded%20Charts)
+
+This project gives me the opportunity to create small multiple bar charts showing Goals Scored and Conceded by English Premier League Clubs from 2021-22 season. The data was web scraped using Selenium in PYthon and visualized in Tableau
+  * Use Selenium to web srape [SoccerSTATS](https://www.soccerstats.com/timing.asp?league=england)
+  * Use panadas for data preprocessing and manipulation
+  * Use Tableau to create the small multiple bar charts
+    - Refer to [Tableau Tip Tuesday: How to Create Small Multiple Line Charts](https://www.vizwiz.com/2016/03/tableau-tip-tuesday-how-to-create-small.html)
+    
+**Goals Scored Per 15 Minutues by Club**
+![Goals Scored Per 15 Minutes by Club](https://github.com/slopers-pinches/football_soccer/blob/main/Goals%20Scored%20Conceded%20Charts/EPL_Goals_Scored_per_15_2021-22%20%5BFINAL%5D.png)
+
+**Goals Conceded Per 15 Minutes by Club**
+![Goals Conceded Per 15 Minutes by Club](https://github.com/slopers-pinches/football_soccer/blob/main/Goals%20Scored%20Conceded%20Charts/EPL_Goals_Conceded_per_15_2021-22%20%5BFINAL%5D.png)
+ 
