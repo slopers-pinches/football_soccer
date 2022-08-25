@@ -1,0 +1,21 @@
+minute,result,xG,player,situation,shot_type,club
+1,MissedShots,0.015994248911738396,Mahmoud Dahoud,OpenPlay,RightFoot,Borussia Dortmund
+46,Goal,0.030886465683579445,Julian Brandt,OpenPlay,LeftFoot,Borussia Dortmund
+65,BlockedShot,0.09414775669574738,Jude Bellingham,OpenPlay,RightFoot,Borussia Dortmund
+76,Goal,0.018221033737063408,Raphael Guerreiro,FromCorner,LeftFoot,Borussia Dortmund
+79,SavedShot,0.030797746032476425,Thorgan Hazard,OpenPlay,RightFoot,Borussia Dortmund
+89,SavedShot,0.4354998767375946,Youssoufa Moukoko,OpenPlay,LeftFoot,Borussia Dortmund
+3,BlockedShot,0.011031766422092915,Niclas Füllkrug,OpenPlay,RightFoot,Werder Bremen
+20,MissedShots,0.43170279264450073,Jens Stage,SetPiece,Head,Werder Bremen
+32,BlockedShot,0.013912087306380272,Christian Groß,FromCorner,RightFoot,Werder Bremen
+33,SavedShot,0.08418288826942444,Marvin Ducksch,OpenPlay,RightFoot,Werder Bremen
+34,MissedShots,0.03397037088871002,Niclas Füllkrug,OpenPlay,LeftFoot,Werder Bremen
+42,SavedShot,0.1541505753993988,Marvin Ducksch,DirectFreekick,RightFoot,Werder Bremen
+50,MissedShots,0.05465114489197731,Niclas Füllkrug,OpenPlay,LeftFoot,Werder Bremen
+58,BlockedShot,0.07091028988361359,Anthony Jung,OpenPlay,LeftFoot,Werder Bremen
+59,SavedShot,0.05381770804524422,Marvin Ducksch,OpenPlay,RightFoot,Werder Bremen
+62,MissedShots,0.022671885788440704,Leonardo Bittencourt,OpenPlay,RightFoot,Werder Bremen
+88,SavedShot,0.06923118233680725,Niklas Schmidt,OpenPlay,RightFoot,Werder Bremen
+88,Goal,0.05680060759186745,Lee Buchanan,OpenPlay,LeftFoot,Werder Bremen
+92,Goal,0.07764329761266708,Niklas Schmidt,OpenPlay,Head,Werder Bremen
+94,Goal,0.06596257537603378,Oliver Burke,OpenPlay,RightFoot,Werder Bremen

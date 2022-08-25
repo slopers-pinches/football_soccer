@@ -1,0 +1,1548 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.21.0611.1303                               -->
+<workbook original-version='18.1' source-build='2020.2.15 (20202.21.0611.1303)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+    <color-palette custom='true' name='Bundesliga' type='regular'>
+      <color>#ed1c24</color>
+      <color>#eb1923</color>
+      <color>#c3141e</color>
+      <color>#e32221</color>
+      <color>#dc052d</color>
+      <color>#fde100</color>
+      <color>#000000</color>
+      <color>#e1000f</color>
+      <color>#ba3733</color>
+      <color>#004d9e</color>
+      <color>#dd013f</color>
+      <color>#1961b5</color>
+      <color>#e32219</color>
+      <color>#005ca9</color>
+      <color>#65b32e</color>
+      <color>#1d9053</color>
+      <color>#004d9d</color>
+    </color-palette>
+  </preferences>
+  <datasources>
+    <datasource caption='MD3_BVB_WerderBremen_08222022' inline='true' name='federated.1g8tlsp197miar16hhwx20xyl75e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='MD3_BVB_WerderBremen_08222022' name='textscan.16i16d00w0m6681fxakj41y84evo'>
+            <connection class='textscan' directory='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/dataset' filename='MD3_BVB_WerderBremen_08222022.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.16i16d00w0m6681fxakj41y84evo' name='MD3_BVB_WerderBremen_08222022.csv' table='[MD3_BVB_WerderBremen_08222022#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='minute' ordinal='0' />
+            <column datatype='string' name='result' ordinal='1' />
+            <column datatype='real' name='xG' ordinal='2' />
+            <column datatype='string' name='player' ordinal='3' />
+            <column datatype='string' name='situation' ordinal='4' />
+            <column datatype='string' name='shot_type' ordinal='5' />
+            <column datatype='string' name='club' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.16i16d00w0m6681fxakj41y84evo' name='MD3_BVB_WerderBremen_08222022.csv' table='[MD3_BVB_WerderBremen_08222022#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='minute' ordinal='0' />
+            <column datatype='string' name='result' ordinal='1' />
+            <column datatype='real' name='xG' ordinal='2' />
+            <column datatype='string' name='player' ordinal='3' />
+            <column datatype='string' name='situation' ordinal='4' />
+            <column datatype='string' name='shot_type' ordinal='5' />
+            <column datatype='string' name='club' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>minute</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[minute]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>minute</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>result</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[result]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>result</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xG]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>xG</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>player</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>situation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[situation]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>situation</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shot_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shot_type]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>shot_type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>club</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[club]</local-name>
+            <parent-name>[MD3_BVB_WerderBremen_08222022.csv]</parent-name>
+            <remote-alias>club</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Goals' datatype='integer' name='[Calculation_983755044745986057]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM (&#13;&#10;IF [result] = &apos;Goal&apos;&#13;&#10;    THEN 1&#13;&#10;ELSE &#13;&#10;    0&#13;&#10;END)' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='MD3_BVB_WerderBremen_08222022.csv' datatype='table' name='[__tableau_internal_object_id__].[MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C]' role='measure' type='quantitative' />
+      <column caption='Club' datatype='string' name='[club]' role='dimension' type='nominal' />
+      <column caption='Minute' datatype='integer' name='[minute]' role='measure' type='quantitative' />
+      <column caption='Player' datatype='string' name='[player]' role='dimension' type='nominal' />
+      <column caption='Result' datatype='string' name='[result]' role='dimension' type='nominal' />
+      <column caption='Shot Type' datatype='string' name='[shot_type]' role='dimension' type='nominal' />
+      <column caption='Situation' datatype='string' name='[situation]' role='dimension' type='nominal' />
+      <column caption='X G' datatype='real' name='[xG]' role='measure' type='quantitative' />
+      <column-instance column='[club]' derivation='None' name='[none:club:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:club:nk]' palette='Bundesliga' type='palette'>
+            <map to='#1d9053'>
+              <bucket>&quot;Werder Bremen&quot;</bucket>
+            </map>
+            <map to='#fde100'>
+              <bucket>&quot;Borussia Dortmund&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='MD3_BVB_WerderBremen_08222022.csv' id='MD3_BVB_WerderBremen_08222022.csv_C5B951DB1AE1460886AFF5847C926B4C'>
+            <properties context=''>
+              <relation connection='textscan.16i16d00w0m6681fxakj41y84evo' name='MD3_BVB_WerderBremen_08222022.csv' table='[MD3_BVB_WerderBremen_08222022#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='minute' ordinal='0' />
+                  <column datatype='string' name='result' ordinal='1' />
+                  <column datatype='real' name='xG' ordinal='2' />
+                  <column datatype='string' name='player' ordinal='3' />
+                  <column datatype='string' name='situation' ordinal='4' />
+                  <column datatype='string' name='shot_type' ordinal='5' />
+                  <column datatype='string' name='club' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='BVB_xG_Goals'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MD3_BVB_WerderBremen_08222022' name='federated.1g8tlsp197miar16hhwx20xyl75e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g8tlsp197miar16hhwx20xyl75e'>
+            <column caption='Goals' datatype='integer' name='[Calculation_983755044745986057]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM (&#13;&#10;IF [result] = &apos;Goal&apos;&#13;&#10;    THEN 1&#13;&#10;ELSE &#13;&#10;    0&#13;&#10;END)' />
+            </column>
+            <column caption='Club' datatype='string' name='[club]' role='dimension' type='nominal' />
+            <column-instance column='[club]' derivation='None' name='[none:club:nk]' pivot='key' type='nominal' />
+            <column caption='Result' datatype='string' name='[result]' role='dimension' type='nominal' />
+            <column-instance column='[xG]' derivation='Sum' name='[sum:xG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_983755044745986057]' derivation='User' name='[usr:Calculation_983755044745986057:qk]' pivot='key' type='quantitative' />
+            <column caption='X G' datatype='real' name='[xG]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]'>
+            <groupfilter function='member' level='[none:club:nk]' member='&quot;Borussia Dortmund&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='114' />
+            <format attr='text-format' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[sum:xG:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='font-style' data-class='subtotal' scope='rows' value='normal' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' value='152' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#555555' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-weight' value='normal' />
+            <format attr='font-family' value='Tableau Medium' />
+            <format attr='font-size' value='11' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044745986057:qk]' />
+              <text column='[federated.1g8tlsp197miar16hhwx20xyl75e].[sum:xG:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044745986057:qk]</run>
+                <run>&gt; Goals&#10;&lt;</run>
+                <run>[federated.1g8tlsp197miar16hhwx20xyl75e].[sum:xG:qk]</run>
+                <run>&gt; xG</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AC6ACFC8-A800-4EF6-9FE8-A1AF9FE3131D}' />
+    </worksheet>
+    <worksheet name='Werder_xG_Goals'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MD3_BVB_WerderBremen_08222022' name='federated.1g8tlsp197miar16hhwx20xyl75e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g8tlsp197miar16hhwx20xyl75e'>
+            <column caption='Goals' datatype='integer' name='[Calculation_983755044745986057]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM (&#13;&#10;IF [result] = &apos;Goal&apos;&#13;&#10;    THEN 1&#13;&#10;ELSE &#13;&#10;    0&#13;&#10;END)' />
+            </column>
+            <column caption='Club' datatype='string' name='[club]' role='dimension' type='nominal' />
+            <column-instance column='[club]' derivation='None' name='[none:club:nk]' pivot='key' type='nominal' />
+            <column caption='Result' datatype='string' name='[result]' role='dimension' type='nominal' />
+            <column-instance column='[xG]' derivation='Sum' name='[sum:xG:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_983755044745986057]' derivation='User' name='[usr:Calculation_983755044745986057:qk]' pivot='key' type='quantitative' />
+            <column caption='X G' datatype='real' name='[xG]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]'>
+            <groupfilter function='member' level='[none:club:nk]' member='&quot;Werder Bremen&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='114' />
+            <format attr='text-format' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[sum:xG:qk]' value='n#,##0.00;-#,##0.00' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' value='152' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Tableau Medium' />
+            <format attr='color' value='#000000' />
+            <format attr='font-size' value='11' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044745986057:qk]' />
+              <text column='[federated.1g8tlsp197miar16hhwx20xyl75e].[sum:xG:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044745986057:qk]</run>
+                <run>&gt; Goals&#10;&lt;</run>
+                <run>[federated.1g8tlsp197miar16hhwx20xyl75e].[sum:xG:qk]</run>
+                <run>&gt; xG</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0C55B726-7FC8-4731-9115-88811B54E85A}' />
+    </worksheet>
+    <worksheet name='xG_FlowChart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MD3_BVB_WerderBremen_08222022' name='federated.1g8tlsp197miar16hhwx20xyl75e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g8tlsp197miar16hhwx20xyl75e'>
+            <column caption='ROUND(RUNNING_SUM(SUM([X G])),2)' datatype='real' name='[Calculation_983755044738531331]' role='measure' type='quantitative' user:unnamed='xG_FlowChart'>
+              <calculation class='tableau' formula='ROUND(RUNNING_SUM(SUM([xG])),2)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='ROUND(RUNNING_SUM(SUM([X G])),2)' datatype='real' name='[Calculation_983755044738723845]' role='measure' type='quantitative' user:unnamed='xG_FlowChart'>
+              <calculation class='tableau' formula='ROUND(RUNNING_SUM(SUM([xG])),2)'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Club' datatype='string' name='[club]' role='dimension' type='nominal' />
+            <column-instance column='[xG]' derivation='Sum' name='[cum:sum:xG:qk]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+            </column-instance>
+            <column caption='Minute' datatype='integer' name='[minute]' role='measure' type='quantitative' />
+            <column-instance column='[club]' derivation='None' name='[none:club:nk]' pivot='key' type='nominal' />
+            <column-instance column='[minute]' derivation='None' name='[none:minute:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_983755044738531331]' derivation='User' name='[usr:Calculation_983755044738531331:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column-instance column='[Calculation_983755044738723845]' derivation='User' name='[usr:Calculation_983755044738723845:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+            <column caption='X G' datatype='real' name='[xG]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' field-type='quantitative' major-origin='0' major-spacing='15' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' scope='rows' value='Cumulative Sum Expected Goal (xG)' />
+            <format attr='tick-color' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='#000000' />
+            <format attr='tick-color' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='font-family' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='Tableau Bold' />
+            <format attr='color' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='#1b1b1b' />
+            <format attr='font-weight' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='normal' />
+            <format attr='font-size' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='9' />
+            <format attr='font-size' data-class='subtotal' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='9' />
+            <format attr='color' data-class='subtotal' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='#1b1b1b' />
+            <format attr='font-size' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='14' />
+            <format attr='font-size' data-class='subtotal' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='14' />
+            <format attr='text-decoration' data-class='total' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='none' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' scope='cols' value='10' />
+            <format attr='font-size' data-class='total' scope='cols' value='10' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='9' />
+            <format attr='font-size' data-class='total' scope='rows' value='9' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='' />
+            <format attr='font-family' scope='cols' value='Tableau Bold' />
+            <format attr='color' scope='cols' value='#1b1b1b' />
+            <format attr='font-family' scope='rows' value='Tableau Bold' />
+            <format attr='color' scope='rows' value='#1b1b1b' />
+            <format attr='color' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='#1b1b1b' />
+            <format attr='font-family' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='Tableau Bold' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-size' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='10' />
+            <format attr='font-size' scope='rows' value='10' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f0f0f0' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-color' id='refline0' value='#d30000' />
+            <format attr='stroke-size' id='refline0' value='2' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' scope='rows' value='on' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#1b1b1b' />
+            <format attr='stroke-size' scope='rows' value='3' />
+            <format attr='stroke-color' scope='cols' value='#000000' />
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='3' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-size' value='10' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-family' value='Tableau Bold' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' value='Club' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-family' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='Tableau Bold' />
+            <format attr='color' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='#000000' />
+            <format attr='font-size' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='12' />
+            <format attr='font-size' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]' value='12' />
+            <format attr='font-weight' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='normal' />
+            <format attr='font-style' field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' value='normal' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='rounding' id='annotation_0' value='medium' />
+            <format attr='border-color' id='annotation_0' value='#000000' />
+            <format attr='border-style' id='annotation_0' value='solid' />
+            <format attr='border-width' id='annotation_0' value='2' />
+            <format attr='body-type' id='annotation_0' value='box' />
+            <format attr='rounding' id='annotation_1' value='medium' />
+            <format attr='border-width' id='annotation_1' value='2' />
+            <format attr='border-style' id='annotation_1' value='solid' />
+            <format attr='border-color' id='annotation_1' value='#000000' />
+            <format attr='stroke-color' id='annotation_4' value='#000000' />
+            <format attr='stroke-size' id='annotation_4' value='1' />
+            <format attr='fill-color' id='annotation_4' value='#00000000' />
+            <format attr='rounding' id='annotation_4' value='small' />
+            <format attr='border-color' id='annotation_4' value='#000000' />
+            <format attr='border-style' id='annotation_4' value='solid' />
+            <format attr='line-end' id='annotation_4' value='none' />
+            <format attr='fill-color' id='annotation_5' value='#00000000' />
+            <format attr='rounding' id='annotation_5' value='small' />
+            <format attr='border-style' id='annotation_5' value='solid' />
+            <format attr='border-color' id='annotation_5' value='#000000' />
+            <format attr='stroke-color' id='annotation_5' value='#000000' />
+            <format attr='fill-color' id='annotation_7' value='#00000000' />
+            <format attr='border-style' id='annotation_7' value='solid' />
+            <format attr='border-color' id='annotation_7' value='#000000' />
+            <format attr='rounding' id='annotation_7' value='small' />
+            <format attr='stroke-color' id='annotation_7' value='#000000' />
+            <format attr='fill-color' id='annotation_9' value='#00000000' />
+            <format attr='border-style' id='annotation_9' value='solid' />
+            <format attr='border-color' id='annotation_9' value='#000000' />
+            <format attr='rounding' id='annotation_9' value='small' />
+            <format attr='stroke-color' id='annotation_9' value='#000000' />
+            <format attr='fill-color' id='annotation_10' value='#00000000' />
+            <format attr='body-type' id='annotation_10' value='box' />
+            <format attr='rounding' id='annotation_10' value='small' />
+            <format attr='stroke-color' id='annotation_10' value='#000000' />
+            <format attr='border-style' id='annotation_10' value='solid' />
+            <format attr='border-color' id='annotation_10' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label-type='none' scope='per-cell' value='45' value-column='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='line-interpolation' value='step' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]</rows>
+        <cols>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='204'>
+            <formatted-text>
+              <run fontcolor='#787878'>Minute: </run>
+              <run bold='true'>46th</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Scorer: </run>
+              <run bold='true'>Julian Brandt</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='46.471014492753618'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.040997435157073728'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[cum:sum:xG:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='101' y='-101' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='0' text-width='234'>
+            <formatted-text>
+              <run fontcolor='#787878'>Minute: </run>
+              <run bold='true'>76th</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Scorer: Raphael Guerreiro</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='76.20289855072464'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.15839918128869393'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[cum:sum:xG:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='167' y='37' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Minute: 88th</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>Scorer: Lee Buchanan</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>xG: </run>
+              <run bold='true'><![CDATA[<[federated.1g8tlsp197miar16hhwx20xyl75e].[cum:sum:xG:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='87.601449275362327'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.0528886756248477'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[cum:sum:xG:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Minute: </run>
+              <run bold='true'><![CDATA[<[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>ROUND(RUNNING_SUM(SUM([X G])),2): </run>
+              <run bold='true'><![CDATA[<[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738531331:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='88.159420289855063'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.0597782705099779'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738531331:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='0' text-width='259'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Minute:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> 88th</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Goal Scorer:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> Lee Buchanan</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='87.681159420289859'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.0579157427937915'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-166' y='19' />
+          </annotation>
+          <annotation class='point' id='5' mark-position='1' pullback='0' text-width='280'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Minute</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>: 92nd</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Goal Scorer:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> Niklas Schmidt</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='92.065217391304344'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.1305543237250555'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-227' y='-35' />
+          </annotation>
+          <annotation class='point' id='7' mark-position='1' pullback='0' text-width='239'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Minute:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> 94th</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Goal Scorer:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> Oliver Burke</run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='93.978260869565219'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.1957427937915743'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-49' y='178' />
+          </annotation>
+          <annotation class='point' id='9' mark-position='1' pullback='0' text-width='305'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Minute:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> 76th</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Goal Scorer:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> Raphael Guerreiro</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='75.724637681159422'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.16017738359201775'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-27' y='-142' />
+          </annotation>
+          <annotation class='point' id='10' mark-position='1' pullback='0' text-width='258'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Minute:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> 46th</run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#000000' fontname='Tableau Regular' fontsize='11'>Goal Scorer:</run>
+              <run fontcolor='#000000' fontname='Tableau Regular' fontsize='11'> Julian Brandt</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='46.311594202898554'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.046563192904656339'>
+                  <node-reference>
+                    <axis>[federated.1g8tlsp197miar16hhwx20xyl75e].[usr:Calculation_983755044738723845:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='124' y='-108' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{2B7050CF-1477-4239-9D5E-61D8E7074BFE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='BVB_Werder_xG_MatchReport'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>Borussia Dortmund vs Werder Bremen</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>Bundesliga Match Day 3 - 8/20/2022</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>xG Race Plot</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#f0f0f0' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98188' id='26' param='vert' w='99034' x='483' y='906'>
+            <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' fixed-size='144' h='17214' id='27' is-fixed='true' w='99034' x='483' y='906'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='80974' id='7' param='horz' w='99034' x='483' y='18120'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='80974' id='5' w='99034' x='483' y='18120'>
+                <zone h='80974' id='3' name='xG_FlowChart' show-title='false' w='99034' x='483' y='18120'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='20725' id='30' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/BVB_logo.svg' w='15148' x='16958' y='-566' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='19139' id='31' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/WerderBremen_logo.svg' w='12492' x='67954' y='-227' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='2945' id='34' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1629' x='48582' y='86070' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='3058' id='35' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1629' x='76463' y='79955' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='2831' id='38' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1629' x='87990' y='28652' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='3284' id='39' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1569' x='91792' y='24462' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='3058' id='40' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1811' x='93784' y='21065' />
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='8720' id='8' name='xG_FlowChart' pane-specification-id='0' param='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' w='11648' x='87628' y='81200' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='3398' id='45' w='4526' x='82197' y='86070'>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Tableau Bold' fontsize='10'>Goal</run>
+          </formatted-text>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='3624' id='46' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='2052' x='84671' y='85844' />
+        <zone h='7022' id='49' name='BVB_xG_Goals' show-title='false' w='7604' x='87568' y='50963' />
+        <zone h='6908' id='54' name='Werder_xG_Goals' show-title='false' w='7121' x='92758' y='19253' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='6682' id='99' w='18346' x='86602' y='93205'>
+          <formatted-text>
+            <run fontcolor='#000000' italic='true'>Data Source: Understats.com</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' italic='true'>Author: Bryan Sam</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>Borussia Dortmund vs Werder Bremen</run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>Bundesliga Match Day 3 - 8/20/2022</run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1' fontname='Tableau Bold' fontsize='20'>xG Race Plot</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='101' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98188' id='100' param='vert' w='99034' x='483' y='906'>
+                <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' fixed-size='144' h='17214' id='27' w='99034' x='483' y='906'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='166' h='20725' id='30' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/BVB_logo.svg' w='15148' x='16958' y='-566'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='153' h='19139' id='31' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/WerderBremen_logo.svg' w='12492' x='67954' y='-227'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='80974' id='3' is-fixed='true' name='xG_FlowChart' show-title='false' w='99034' x='483' y='18120'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='8720' id='8' name='xG_FlowChart' pane-specification-id='0' param='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' w='11648' x='87628' y='81200'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='55' h='6908' id='54' is-fixed='true' name='Werder_xG_Goals' show-title='false' w='7121' x='92758' y='19253'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='24' h='3058' id='40' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1811' x='93784' y='21065'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='26' h='3284' id='39' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1569' x='91792' y='24462'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='23' h='2831' id='38' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1629' x='87990' y='28652'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='56' h='7022' id='49' is-fixed='true' name='BVB_xG_Goals' show-title='false' w='7604' x='87568' y='50963'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='24' h='3058' id='35' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1629' x='76463' y='79955'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='29' h='3624' id='46' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='2052' x='84671' y='85844'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='23' h='2945' id='34' is-fixed='true' is-scaled='1' param='C:/Users/fcbmu/OneDrive - UC Irvine/Projects/football_soccer/xG Flow Chart/images/football.png' w='1629' x='48582' y='86070'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='3398' id='45' w='4526' x='82197' y='86070'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Tableau Bold' fontsize='10'>Goal</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='6682' id='99' w='18346' x='86602' y='93205'>
+                  <formatted-text>
+                    <run fontcolor='#000000' italic='true'>Data Source: Understats.com</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' italic='true'>Author: Bryan Sam</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2776A6CF-ECE9-4479-AFFE-90438BD625DC}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='xG_FlowChart'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:ok]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:minute:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{74454D77-27B4-43B9-8977-5F608663F3B1}' />
+    </window>
+    <window class='worksheet' name='BVB_xG_Goals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[:Measure Names]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:Calculation_983755044745351174:qk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:Calculation_983755044745404423:qk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:result:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5BB32C65-D700-4581-A4DD-E6F55A39C29D}' />
+    </window>
+    <window class='worksheet' name='Werder_xG_Goals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[:Measure Names]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:Calculation_983755044745351174:qk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:Calculation_983755044745404423:qk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]</field>
+            <field>[federated.1g8tlsp197miar16hhwx20xyl75e].[none:result:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{47F90C6D-4C5C-4A0D-A798-757A7D257400}' />
+    </window>
+    <window class='dashboard' maximized='true' name='BVB_Werder_xG_MatchReport'>
+      <viewpoints>
+        <viewpoint name='BVB_xG_Goals' />
+        <viewpoint name='Werder_xG_Goals' />
+        <viewpoint name='xG_FlowChart'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.1g8tlsp197miar16hhwx20xyl75e].[none:club:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{3390B1C0-22E2-4103-A781-6F154ADE57CD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='BVB_Werder_xG_MatchReport' width='192'>
+      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
+      YII=
+    </thumbnail>
+    <thumbnail height='46' name='BVB_xG_Goals' width='118'>
+      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
+      RvkPUnEAKsFrs6oAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='46' name='Werder_xG_Goals' width='118'>
+      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
+      Wi3yVmyl/AfjNLq9ZaunzwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='xG_FlowChart' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
