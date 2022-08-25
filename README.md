@@ -54,7 +54,7 @@ This project gives me the opportunity to create small multiple bar charts showin
  
 5) [***Bundesliga 2022-23 Matchday 3 - BVB vs Werder Bremen xG Chart***](https://github.com/slopers-pinches/football_soccer/tree/main/xG%20Flow%20Chart)
 
-I built an Expected Goal (xG) Race Chart to show the running sum of xG goals between BVB and Werder Bremen. xG is a metric of the likelihood of a scoring opportunity that may result in a goal. This project allows me to improve my Tableau viz and web scraping sklls.
+I built an Expected Goal (xG) Race Chart to show the running sum of xG goals between BVB and Werder Bremen. xG is a metric of the likelihood of a scoring opportunity that may result in a goal. This project allows me to improve my Tableau viz and web scraping skills.
   * Use BeautifulSoup to webscrape [Understats](https://understat.com/match/19364)
   * Use panadas for data preprocessing and manipulation
   * Use Tableau to create a time series plot
